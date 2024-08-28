@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./img/alura.png" alt="logo de alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="input-box" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="aviso"> &#9888; Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="encrypt-button" onclick="encryptButton()">Encriptar</button>
+                <button class="decrypt-button" onclick="decryptButton()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="output-box" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+    <footer>
+        &copy; 2024
+        <a href="https://github.com/PMIglesias" target="_blank">PMIglesias</a> |
+        <a href="https://www.oracle.com/ar/education/oracle-next-education/" target="_blank">ONE Oracle Next
+            Education</a> |
+        <a href="https://www.aluracursos.com/" target="_blank">Alura LATAM</a>
+    </footer>
+</body>
+
+</html>
